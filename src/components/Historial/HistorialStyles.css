@@ -1,0 +1,40 @@
+.historial-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.historial-container h3 {
+  text-transform: none;
+}
+
+.historial {
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 40px;
+}
+
+.historial li {
+  background-color: #fff;
+  box-shadow: var(--box-shadow);
+  color: #333;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.historial li.plus {
+  border-right: 5px solid #2ecc71;
+}
+
+.historial li.minus {
+  border-right: 5px solid #c0392b;
+}
+
+.historial li:hover .delete-btn {
+  opacity: 1;
+}

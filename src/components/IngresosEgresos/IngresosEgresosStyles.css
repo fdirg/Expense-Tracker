@@ -1,0 +1,34 @@
+.ing-eg-container {
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  padding: 1.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #dedede;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.ing-eg-container div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.ing-eg-container div span {
+  font-size: 1.4rem;
+}
+
+.ingreso {
+  color: #2ecc71;
+}
+
+.egreso {
+  color: #c0392b;
+}
+
+.border {
+  border-right: 1px solid #dedede;
+}
